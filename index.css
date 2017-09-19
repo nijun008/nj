@@ -1,0 +1,138 @@
+h1,h2,h3,h4,h5,h6,img,p,ul,li,ol{
+	padding: 0;
+	margin: 0;
+}
+.clearfloat:after{
+	display: block;
+	content: "";
+	height: 0;
+	visibility: hidden;
+	zoom: 1;
+	clear: both;
+}
+body{
+	color: #fff;
+	font-size: 16px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+ul{
+	padd
+}
+li{
+	list-style: none;
+}
+
+
+#bg-button{
+	position: fixed;
+	width: 50px;
+	color: #ccc;
+	top: 50%;
+	left: 0;
+	line-height: 20px;
+	font-size: 12px;
+	margin-top: -100px;
+	text-align: center;
+}
+#bg-button li{
+	border-radius: 0 3px 3px 0;
+	border: 1px solid #ccc;
+	border-left: none;
+	cursor: pointer;
+}
+#bg-button .bg-active,#bg-button li:hover{
+	background: #669999;
+	color: #fff;
+	border-color: #669999;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background: #fff;
+}
+
+.bg{
+	height: 100%;
+}
+.bg1{
+	background: url(img/bg01.jpg) no-repeat center;
+}
+.bg2{
+	background: url(img/bg02.jpg) no-repeat center;
+}
+.bg3{
+	background: url(img/bg03.jpg) no-repeat center;
+}
+.bg{
+	background-size: cover;
+}
+.center{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.modul{
+	height: 100%;
+	background: rgba(100,100,100,0.7);
+}
+.content{
+	padding-top: 5%;
+}
+.page-head{
+	margin-bottom: 60px;
+	text-align: center;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.avatar img{
+	width: 100%;
+}
+.profile-l,.profile-r{
+	width: 50%;
+	line-height: 40px;
+}
+.profile-attr{
+	text-align: right;
+	padding-right: 5%;
+}
+.profile-value{
+	text-align: left;
+	padding-left: 5%;
+}
+.swiper-slide{
+	background: rgba(0,0,0,0.5);
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+}
+.swiper-slide img{
+	max-width: 100%;
+	max-height: 400px;
+	vertical-align: middle;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	right: 60px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	left: 60px;
+}
+.img-info{
+	position: absolute;
+	bottom: 30px;
+	right: 5px;
+	line-height: 26px;
+	text-align: right;
+	color: #ddd;
+	font-size: 12px;
+	text-shadow: 1px 1px 3px #000;
+}
