@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>个人简历</title>
-	<link rel="stylesheet" type="text/css" href="animate/animate.css">
+	<!-- <link rel="stylesheet" type="text/css" href="animate/animate.css"> -->
 	<link rel="stylesheet" type="text/css" href="fullpage/dist/jquery.fullpage.min.css">
-	<link rel="stylesheet" type="text/css" href="swiper/swiper.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="swiper/swiper.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
@@ -16,24 +16,42 @@
 			<div class="bg bg1">
 				<div class="modul">
 					<div class="content">
-					<h1 class="page-head animated bounceInDown">基本资料</h1>
-					<div class="avatar animated rotateIn"><img src="img/avatar01.jpg"></div>
-					<div class="profile-box clearfloat center">
-						<div class="profile-l fl">
-							<p class="profile-attr animated bounceInLeft">求职岗位</p>
-							<p class="profile-attr animated bounceInLeft">姓名</p>
-							<p class="profile-attr animated bounceInLeft">籍贯</p>
-							<p class="profile-attr animated bounceInLeft">学历</p>
-							<p class="profile-attr animated bounceInLeft">工作时间</p>
+					<h1 class="page-head">基本资料</h1>
+					<div class="avatar"><img src="img/avatar01.jpg"></div>
+						<div class="profile-box clearfloat center">
+							<div class="clearfloat">
+								<p class="profile-attr fl">求职岗位</p>
+								<p class="profile-value fr">Web前端</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">姓名</p>
+								<p class="profile-value fr">倪俊</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">联系电话</p>
+								<p class="profile-value fr">18689219294</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">籍贯</p>
+								<p class="profile-value fr">四川/德阳</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">工作时间</p>
+								<p class="profile-value fr">一年</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">CSS</p>
+								<p class="profile-value fr">熟练掌握DIV+CSS布局，熟悉盒模型、浮动、position，能根据设计要求完成指定布局，学习过flex布局，使用过部分css3属性</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">JavaScript</p>
+								<p class="profile-value fr">掌握原生DOM操作，实现常用页面效果，熟悉jqury的使用，熟练ajax请求与数据交互，对于常用插件和库能通过文档快速上手使用；自学过vue以及vue项目的构建，了解vue基本用法和它的数据驱动思想</p>
+							</div>
+							<div class="clearfloat">
+								<p class="profile-attr fl">自我评价</p>
+								<p class="profile-value fr">正直诚信，积极向上，有责任心，学习理解能力较强，沟通能力较好</p>
+							</div>
 						</div>
-						<div class="profile-r fr">
-							<p class="profile-value animated bounceInRight">Web前端</p>
-							<p class="profile-value animated bounceInRight">倪俊</p>
-							<p class="profile-value animated bounceInRight">四川/德阳</p>
-							<p class="profile-value animated bounceInRight">高中(看不见,看不见)</p>
-							<p class="profile-value animated bounceInRight">唔...半年</p>
-						</div>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -43,17 +61,38 @@
 			<div class="bg bg2">
 				<div class="modul">
 					<div class="content">
-						<h1 class="page-head animated bounceInDown">能力/履历</h1>
-						<!-- <div class="project">
-							<a href="http://www.wooyh.com/"><h2>沃约惠</h2></a>
-							<p>这里是项目的概要</p>
-							<ul>
-								<h3>主要功能</h3>
-								<li>项目主要功能一</li>
-								<li>项目主要功能二</li>
-								<li>项目主要功能三</li>
-							</ul>
-						</div> -->
+						<h1 class="page-head">项目经验</h1>
+						<div class="project clearfloat">
+							<div class="project-item fl">
+								<a href="http://www.wooyh.com/" target="_blank"><h2>沃约惠</h2></a>
+								<h5>关键词：bootstrap，jquery，高德地图API，ajax，图片上传</h5>
+								<ul>
+									<li>该项目为联通与某酒店管理公司合作推出的酒店预订应用</li>
+									<li>项目包括IOS，安卓，微信，PC网页 共计4端</li>
+									<li>实现用户登录注册（包括第三方授权登录），商家及合伙人申请入驻</li>
+									<li>全日房、钟点房、竞价房预订功能，酒店搜索，条件筛选，酒店收藏，酒店对比，地图展示，酒店详情，房间预订，订单付款，订单评价，常用旅客信息，订单中心，个人资料编辑等功能流程</li>
+									<li>PC端实现的部分主要功能如下：</li>
+									<li>酒店列表和地图标注的交互</li>
+									<li>下单页面的价格优惠计算</li>
+									<li>图片上传</li>
+									<li>常旅客信息增删改</li>
+									<li>订单状态以及订单操作</li>
+									<li>更多详细功能请访问项目地址</li>
+								</ul>
+							</div>
+							<div class="project-item fl">
+								<a href="https://github.com/nijun008/vue_movie" target="_blank"><h2>简单版豆瓣电影</h2></a>
+								<h5>关键词：vue，axios，vue-router，豆瓣API</h5>
+								<ul>
+									<li>// 过于频繁的请求会导致接口挂掉，大概每小时几十次</li>
+									<li>// 发现豆瓣的图片挂了，可能是新做了防盗链，会影响页面效果</li>
+									<li>所有接口来自豆瓣电影</li>
+									<li>通过这个项目，对vue基本用法以及vue项目构建有了大概的认识</li>
+									<li>/认识了vue数据驱动的思想</li>
+									<li>...</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -63,8 +102,8 @@
 			<div class="bg bg3">
 				<div class="modul">
 					<div class="content">
-						<h1 class="page-head animated bounceInDown">生活/行摄</h1>
-						<div class="swiper-container">
+						<h1 class="page-head animated bounceInDown">工作经历(暂未编辑)</h1>
+						<!-- <div class="swiper-container">
 						  	<div class="swiper-wrapper">
 						    	<div class="swiper-slide">
 						    		<img src="img/img1.jpg">
@@ -162,7 +201,7 @@
 						  </div>
 						  <div class="swiper-button-next"></div>
 						  <div class="swiper-button-prev"></div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -186,14 +225,13 @@
 
 	<script type="text/javascript" src="jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="fullpage/dist/jquery.fullpage.min.js"></script>
-	<script type="text/javascript" src="swiper/swiper.min.js"></script>
-	<script type="text/javascript" src="wow/wow.js"></script>
+	<!-- <script type="text/javascript" src="swiper/swiper.min.js"></script> -->
 	<script type="text/javascript">
 		$(function () {
 			$('#fullpage').fullpage({
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['基本资料','能力/履历','生活/行摄'],
+				navigationTooltips: ['基本资料','项目经验','工作经历'],
 				onLeave: function (index,nextIndex,direction) {
 					var _index = index - 1;
 					setTimeout( function () {
@@ -247,24 +285,16 @@
 			}
 
 			//轮播
-		    var swiper = new Swiper('.swiper-container', {
-		        pagination: '.swiper-pagination',
-		        nextButton: '.swiper-button-next',
-       			prevButton: '.swiper-button-prev',
-		        slidesPerView: 4,
-		        centeredSlides: true,
-		        paginationClickable: true,
-		        spaceBetween: 30
-		    });
+		    // var swiper = new Swiper('.swiper-container', {
+		    //     pagination: '.swiper-pagination',
+		    //     nextButton: '.swiper-button-next',
+      		//		prevButton: '.swiper-button-prev',
+		    //     slidesPerView: 4,
+		    //     centeredSlides: true,
+		    //     paginationClickable: true,
+		    //     spaceBetween: 30
+		    // });
 
-    // var swiper = new Swiper('.swiper-container', {
-    //     pagination: '.swiper-pagination',
-    //     paginationClickable: true,
-    //     nextButton: '.swiper-button-next',
-    //     prevButton: '.swiper-button-prev',
-    //     parallax: true,
-    //     speed: 600,
-    // });
     
 		})
 	</script>

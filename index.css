@@ -1,6 +1,7 @@
 h1,h2,h3,h4,h5,h6,img,p,ul,li,ol{
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 .clearfloat:after{
 	display: block;
@@ -97,17 +98,21 @@ li{
 .avatar img{
 	width: 100%;
 }
-.profile-l,.profile-r{
-	width: 50%;
-	line-height: 40px;
+.profile-box>div{
+	margin-top: 12px;
+	line-height: 22px;
 }
 .profile-attr{
 	text-align: right;
-	padding-right: 5%;
+	padding-right: 2%;
+	width: 50%;
 }
 .profile-value{
 	text-align: left;
-	padding-left: 5%;
+	padding-left: 2%;
+	width: 50%;
+	padding-right: 15%;
+	font-size: 14px;
 }
 .swiper-slide{
 	background: rgba(0,0,0,0.5);
@@ -135,4 +140,36 @@ li{
 	color: #ddd;
 	font-size: 12px;
 	text-shadow: 1px 1px 3px #000;
+}
+.project{
+
+}
+.project-item{
+	width: 28%;
+	margin-left: 5.333%;
+}
+.project-item h5{
+	font-size: 16px;
+	margin: 9px 0;
+}
+.project-item li{
+	font-size: 14px;
+	line-height: 26px;
+	position: relative;
+	padding-left: 16px;
+}
+.project-item li:before{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 7px solid transparent;
+	border-left-color: #fff;
+	left: 0;
+	top: 5px;
+	transition: 0.3s;
+}
+.project-item li:hover:before{
+	left: 5px;
 }
