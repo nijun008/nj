@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>简历</title>
-	<link rel="stylesheet" type="text/css" href="fullpage/dist/jquery.fullpage.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="css/timeline.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 	
@@ -14,51 +16,15 @@
 			<div class="bg bg1">
 				<div class="modul">
 					<div class="content">
-						<!-- <h1 class="page-head">基本资料</h1>
-						<div class="avatar"><img src="img/avatar01.jpg"></div>
-						<div class="profile-box clearfloat center">
-							<div class="clearfloat">
-								<p class="profile-attr fl">求职岗位</p>
-								<p class="profile-value fr">Web前端</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">姓名</p>
-								<p class="profile-value fr">倪俊</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">联系电话</p>
-								<p class="profile-value fr">18689219294</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">籍贯</p>
-								<p class="profile-value fr">四川/德阳</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">工作时间</p>
-								<p class="profile-value fr">一年</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">CSS</p>
-								<p class="profile-value fr">熟练掌握DIV+CSS布局，熟悉盒模型、浮动、position，能根据设计要求完成指定布局，学习过flex布局，使用过部分css3属性</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">JavaScript</p>
-								<p class="profile-value fr">掌握原生DOM操作，实现常用页面效果，熟悉jqury的使用，熟练ajax请求与数据交互，对于常用插件和库能通过文档快速上手使用；自学过vue以及vue项目的构建，了解vue基本用法和它的数据驱动思想</p>
-							</div>
-							<div class="clearfloat">
-								<p class="profile-attr fl">自我评价</p>
-								<p class="profile-value fr">正直诚信，积极向上，有责任心，学习理解能力较强，沟通能力较好</p>
-							</div>
-						</div> -->
 						<h3>关于我</h3>
 						<div class="box-wrap">
 							<div class="box">
-			            <div class="one"><img src="img/avatar01.jpg"></div>
-			            <div class="two">电影</div>
-			            <div class="three"><img src="img/avatar02.jpg"></div>
-			            <div class="four">code</div>
-			            <div class="five"><img src="img/avatar03.jpg"></div>
-			            <div class="six">数码</div>
+			            <div class="one"><img src="images/avatar02.jpg"></div>
+			            <div class="two">HTML</div>
+			            <div class="three"><img src="images/avatar03.jpg"></div>
+			            <div class="four">CSS</div>
+			            <div class="five">VUE</div>
+			            <div class="six">JavaSript</div>
 			        </div>
 			      </div>
 			      <div class="profile">
@@ -75,6 +41,10 @@
 			      		<p>18689219294</p>
 			      	</div>
 			      	<div>
+			      		<h5>电子邮箱</h5>
+			      		<p>87179471@qq.com</p>
+			      	</div>
+			      	<div>
 			      		<h5>籍贯</h5>
 			      		<p>四川/中江(德阳)</p>
 			      	</div>
@@ -84,10 +54,15 @@
 			      	</div>
 			      </div>
 			      <div class="skill">
-			      	<h5>技能熟练度（尽量客观）</h5>
-			      	<p>熟&#12288;练：HTML, CSS, js基础, jQuery</p>
-			      	<p>熟&#12288;悉：ajax, vue基本使用, npm, git和svn日常使用</p>
-			      	<p>使用过：vue-router, Element-UI, ECharts, 百度地图和高德地图 </p>
+			      	<div>
+				      	<h5>技能熟练度</h5>
+				      	<p>熟&#12288;练：HTML, CSS, js基础, jQuery</p>
+				      	<p>熟&#12288;悉：ajax, vue基本用法, npm, git和svn日常使用</p>
+				      	<p>使用过：node, mongodb, vue-cli, vue-router, axios, Element-UI, Hbuilder APP开发, ECharts</p>
+				      	<p style="text-indent: 56px;"> 百度地图和高德地图, ES6部分特性(let, 箭头函数), 对于常用工具、库能通过文档快速上手使用</p>
+				      	<h5>我 ...</h5>
+				      	<p>诚信正直，三观端正，责任心强，沟通能力较好，逻辑及学习能力较强</p>
+			      	</div>
 			      </div>
 					</div>
 				</div>
@@ -98,7 +73,66 @@
 			<div class="bg bg2">
 				<div class="modul">
 					<div class="content">
-						
+						<h3>部分作品</h3>
+						<div class="swiper-container">
+						  <div class="swiper-wrapper">
+						    <div class="swiper-slide">
+						    	<div class="project">
+						    		<h4><a href="http://www.wooyh.com/" target="_blank">沃约惠</a><span>2017.05 - 2017.07</span></h4>
+							    	<ul>
+							    		<li>联通与某酒店管理公司合作推出的酒店预订应用</li>
+							    		<li>项目包括IOS，安卓，微信，PC网页 共计4端</li>
+							    		<li>实现用户登录注册，商家及合伙人申请入驻</li>
+							    		<li>全日房、钟点房、竞价房预订功能，酒店搜索，条件筛选，酒店收藏，酒店对比，地图展示，酒店详情，房间预订，订单付款，订单评价，常用旅客信息，订单中心，个人资料编辑等功能流程</li>
+							    		<li>我负责该项目PC端页面：实现的部分功能如下</li>
+							    		<li>酒店列表和地图标注的交互</li>
+							    		<li>酒店位置与周边搜索</li>
+							    		<li>下单页面的价格优惠计算</li>
+							    		<li>图片上传</li>
+							    		<li>常旅客信息增删改</li>
+							    		<li>订单状态以及订单操作等...</li>
+							    	</ul>
+							    </div>
+						    </div>
+						    <div class="swiper-slide">
+						    	<div class="project">
+						    		<h4><a href="http://www.fxideal.com/" target="_blank">某外汇官网</a><span>2017.10 - 2017.11</span></h4>
+							    	<ul>
+							    		<li>滚屏、响应式页面</li>
+							    		<li>根据设计图实现编写页面</li>
+							    		<li>页面动态交互的琢磨与实现</li>
+							    		<li>（在职期间完成多个类似网站页面）</li>
+							    	</ul>
+							    </div>
+						    </div>
+						    <div class="swiper-slide">
+						    	<div class="project">
+						    		<h4><a href="javascript:;">众筹后台管理系统</a><span>2017.12 - 2018.2</span></h4>
+							    	<ul>
+							    		<li>是一个众筹产品运营项目，包含官网、用户后台、管理员后台</li>
+							    		<li>在一个vue-admin开源项目基础上开发</li>
+							    		<li>用到的主要框架组件有vue,vue-router,vuex,Element-UI</li>
+							    		<li>在本项目中负责后台财务和众筹产品部分</li>
+							    		<li>其中产品部分包括：产品发布，产品详情，产品编辑，产品投资审核</li>
+							    	</ul>
+							    </div>
+						    </div>
+						    <div class="swiper-slide">
+						    	<div class="project">
+						    		<h4><a href="javascript:;">个人博客(即将上线)</a><span>2017.12 - 2018.2</span></h4>
+							    	<ul>
+							    		<li>Node.js + express + mongodb开发的个人博客</li>
+							    		<li>用户注册登录功能</li>
+							    		<li>博客页面文章分类展示和评论</li>
+							    		<li>后台管理功能, 用户管理, 分类管理, 文章管理, 评论管理</li>
+							    	</ul>
+							    </div>
+						    </div>
+						  </div>
+						  <div class="swiper-pagination"></div>
+						  <div class="swiper-button-prev swiper-button-white"></div>
+    					<div class="swiper-button-next swiper-button-white"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -109,6 +143,52 @@
 				<div class="modul">
 					<div class="content">
 						<h3>工作经历</h3>
+						<div class="main-timeline">
+
+							<div class="timeline">
+								<a href="javascript:;" class="timeline-content">
+									<span class="year">2017-05<br>2017-07</span>
+									<div class="inner-content">
+										<h3 class="title">成都恒速科技有限公司(兼职)</h3>
+										<p class="description">
+											负责项目PC端的页面编写
+											<br>实现页面逻辑与交互
+											<br>项目接口对接与测试
+											<br>修复页面bug
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="timeline">
+								<a href="javascript:;" class="timeline-content">
+									<span class="year">2017-08<br>至今</span>
+									<div class="inner-content">
+										<h3 class="title">成都怀慈科技有限公司</h3>
+										<p class="description">
+											根据设计图编写页面样式与交互
+											<br>对接后台接口实现数据交互
+											<br>根据项目需求功能提出个人看法建议
+											<br>发现并修改现有项目页面BUG
+											<br>完成领导安排的其他工作
+										</p>
+									</div>
+								</a>
+							</div>
+
+							<div class="timeline">
+								<a href="javascript:;" class="timeline-content">
+									<span class="year">将来</span>
+									<div class="inner-content">
+										<h3 class="title"></h3>
+										<p class="description">
+											会在贵公司从事前端相关的工作吗？
+										</p>
+									</div>
+								</a>
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
@@ -130,10 +210,15 @@
 		</ul>
 	</div>
 
-	<script type="text/javascript" src="jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="fullpage/dist/jquery.fullpage.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
 	<script type="text/javascript">
 		$(function () {
+			//更换背景实例化
+			var	bgEvent = new ChangeBg('#bg-button li', '.bg')
+
+			//滚屏
 			$('#fullpage').fullpage({
 				navigation: true,
 				navigationPosition: 'right',
@@ -141,15 +226,27 @@
 				onLeave: function (index,nextIndex,direction) {
 					var _index = index - 1;
 					setTimeout( function () {
-						$('.bg').eq(_index).css('background-image','url(' + bg[Math.ceil(Math.random()*99)] + ')');
+						$('.bg').eq(_index).css('background-image','url(' + bgEvent.bg[Math.ceil(Math.random()*(bgEvent.bg.length - 1))] + ')');
 					},500)
 				}
 			});
 
-			//获取图片
-			//changeBg('%E5%85%A8%E9%83%A8');
-			var bg = [];
-			var bg_tag = {
+			//作品轮播
+			var mySwiper = new Swiper('.swiper-container', {
+				autoplay: false,
+				pagination : '.swiper-pagination',
+				prevButton:'.swiper-button-prev',
+				nextButton:'.swiper-button-next',
+				touchRatio: 0.5,
+			})
+
+		})
+
+		function ChangeBg (btn, target) {
+			var _self = this
+			this.bg = []
+			this.target = $(target)
+			this.bg_tag = {
 				'风光': '%E4%B8%96%E7%95%8C%E9%A3%8E%E5%85%89',
 				'宠物': '%E8%90%8C%E5%AE%A0',
 				'影视': '%E5%BD%B1%E8%A7%86',
@@ -159,38 +256,38 @@
 				'汽车': '%E6%B1%BD%E8%BD%A6',
 				'军事': '%E5%86%9B%E4%BA%8B'
 			}
-			//更换背景
-			$("#bg-button").find('li').on('click',function () {
+			$(btn).on('click',function () {
 				$('.bg-active').removeClass('bg-active');
 				$(this).addClass('bg-active')
-				var _tag = $(this).html();
-				changeBg(bg_tag[_tag]);
+				var _tag = _self.bg_tag[$(this).html()]
+				_self.getImg(_tag);
 			})
+			this.getImg('%E5%85%A8%E9%83%A8');
+		}
 
-			//获取背景URL
-			function changeBg(tag) {
-				var _url = 'http://pic.sogou.com/pics/channel/getAllRecomPicByTag.jsp?category=%E5%A3%81%E7%BA%B8&tag=' + tag + '&start=0&len=100&width=1366&height=768';
-				$.ajax({
-					url: _url,
-					dataType: 'jsonp',
-	        		crossDomain: true,
-					success: function (data) {
-						if(data){
-							bg = [];
-							$.each(data.all_items,function(i, item) {
-								if(item.ori_pic_url) {
-									bg.push(item.ori_pic_url);
-								}
-							});
-							$('.bg').map(function (i,item) {
-								$(this).css('background-image','url(' + bg[Math.ceil(Math.random()*99)] + ')');
-							})
-						}
+		ChangeBg.prototype.getImg = function (tag) {
+			var _self = this
+			var _url = 'http://pic.sogou.com/pics/channel/getAllRecomPicByTag.jsp?category=%E5%A3%81%E7%BA%B8&tag=' + tag + '&start=0&len=30&width=1366&height=768';
+			$.ajax({
+				url: _url,
+				dataType: 'jsonp',
+        crossDomain: true,
+				success: function (data) {
+					if(data){
+						_self.bg = [];
+						$.each(data.all_items,function(i, item) {
+							if(item.ori_pic_url) {
+								_self.bg.push(item.ori_pic_url);
+							}
+						});
+						_self.target.map(function (i,item) {
+							console.oo
+							$(this).css('background-image','url(' + _self.bg[Math.ceil(Math.random()*(_self.bg.length - 1))] + ')');
+						})
 					}
-				})
-			}
-    
-		})
+				}
+			})
+		}
 	</script>
 </body>
 </html>
