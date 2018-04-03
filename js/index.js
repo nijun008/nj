@@ -51,7 +51,7 @@ function ChangeBg (btn, target) {
 
 ChangeBg.prototype.getImg = function (tag) {
   var _self = this
-  var _url = 'http://pic.sogou.com/pics/channel/getAllRecomPicByTag.jsp?category=%E5%A3%81%E7%BA%B8&tag=' + tag + '&start=0&len=30&width=1366&height=768';
+  var _url = 'http://pic.sogou.com/pics/channel/getAllRecomPicByTag.jsp?category=%E5%A3%81%E7%BA%B8&tag=' + tag + '&start=0&len=30&width=1280&height=720';
   $.ajax({
     url: _url,
     dataType: 'jsonp',
